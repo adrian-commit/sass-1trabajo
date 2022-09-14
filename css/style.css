@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  min-width: 15vh;
+  background-color: #858585; }
+  header .navbar {
+    display: flex;
+    width: 70vh;
+    justify-content: space-around; }
+  header li {
+    color: black;
+    padding: 2%; }
+    header li:hover {
+      color: aliceblue; }
+
+div {
+  background-color: brown; }
+  div h1 {
+    color: white;
+    text-align: center;
+    font-size: larger; }
+
+.contenedor {
+  display: flex;
+  background-image: url(../img/busqueda-inversa-imagenes.jpg); }
+  .contenedor .card {
+    margin: 2%;
+    text-align: center;
+    background-color: darkcyan;
+    border-bottom-left-radius: 5px;
+    padding: 1%;
+    min-height: 50vh; }
+    .contenedor .card p {
+      text-align: justify;
+      font-size: medium; }
+
+.bot {
+  background-color: chocolate;
+  color: black;
+  height: 30px;
+  width: 100px;
+  padding: 2%;
+  border-radius: 10%;
+  font-weight: bold; }
+  .bot:hover {
+    color: antiquewhite;
+    background-color: brown;
+    font-weight: bold; }
+
+footer {
+  text-align: center;
+  background-color: darkgrey; }
+  footer form {
+    border-radius: 2%;
+    border-left-width: black;
+    height: 32vh;
+    border-style: solid;
+    background-color: coral; }
+    footer form input:focus {
+      background-color: black; }
+    footer form input::placeholder {
+      color: aliceblue;
+      min-height: 5vh; }

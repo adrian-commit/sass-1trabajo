@@ -1,0 +1,17 @@
+
+header{
+    min-width: 15vh;
+    background-color: rgb(133, 133, 133);
+    .navbar{
+        display: flex;
+        width: 70vh;
+        justify-content: space-around;
+    }
+    li{
+        color: black;
+        padding: 2%;
+        &:hover{
+            color: aliceblue;
+        }
+    }
+}

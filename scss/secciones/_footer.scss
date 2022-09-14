@@ -1,0 +1,22 @@
+footer{
+    text-align: center;
+    background-color: darkgrey;
+    form{
+        border-radius: 2%;
+        border-left-width: black;
+        height: 32vh;
+        border-style: solid;
+        background-color: coral;
+        input{
+            &:focus{
+                background-color: black;
+                }
+            &::placeholder{ 
+                color: aliceblue;
+                min-height: 5vh;
+                }
+           
+        }
+
+    }
+}
