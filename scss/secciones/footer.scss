@@ -1,0 +1,37 @@
+/* Footer */
+.footer{
+    display: flex;
+    padding: 1%;
+    background-color: rgb(139, 139, 139);
+    font-weight: bold;
+    font-size:60%;
+    position:absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 8vw;
+    color: aliceblue;
+    cursor: pointer;
+	  text-transform: uppercase;
+	  transition: .3s ease all;
+    justify-content:flex-start;
+    justify-content: space-evenly;
+            .ordenLogos{
+                display: flex;
+                width: 100vw;
+                font-size: medium;
+                flex-direction: row-reverse;
+            }
+            
+            .ordenLogos i{
+            color: #000000;
+            }
+            
+            .logos{
+                width: 25px;
+            }
+
+    }
+
+    
+
+
